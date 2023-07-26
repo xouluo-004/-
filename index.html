@@ -12,10 +12,10 @@
       }
     </style>
   </head>
-  <body>
+  <body style="display: flex; flex-direction: column">
     <div
       style="
-        background: #f1f1f1;
+        background: #d7dcf9;
         text-align: center;
         padding: 40px;
         line-height: 1.7;
@@ -23,7 +23,7 @@
       "
     >
       <img
-        src="./康文昌的在线HTML 教学小工具_files/logo.png"
+        src="./天王星/c5370338a24303e9a00e38730ff77dda.jpg"
         alt="Pluto"
         width="80"
         height="80"
@@ -31,26 +31,55 @@
     </div>
     <div
       style="
-        max-width: 700;
+        background-color: aqua;
+        max-width: 50px;
+        max-height: 100px;
+        text-align: center;
+        padding: 3px;
+      "
+    >
+      <p>寒窗</p>
+    </div>
+    <div
+      style="
+        background-color: rgb(157, 212, 244);
+        max-width: 400px;
         margin: 30px auto;
         text-align: center;
         padding: 40px;
         line-height: 1.7;
-        color: blue;
+        color: #2e8755;
       "
     >
-      <p>明敕星驰封宝剑</p>
-      <p>我的网站</p>
-      <p>我的网站</p>
-      <p>我的网站</p>
+      <p style="color: #d7dcf9; background-color: rgb(0, 0, 0)">
+        路漫漫其修远兮，吾将上下而求索
+      </p>
+      <p>明敕星驰封宝剑，辞军一夜取楼兰</p>
+      <p>晓看天色暮看云，行也思君、坐也思君</p>
+      <p style="color: rgb(21, 7, 215)">哈哈哈</p>
       <p>我的网站</p>
       <p>我的网站</p>
       <p>我的网站</p>
     </div>
     <div
-      style="margin: 30px auto; text-align: center; padding: 40px; color: red"
+      style="
+        margin: 30px auto;
+        text-align: center;
+        padding: 40px;
+        color: rgb(220, 13, 193);
+      "
     >
       <p>我的网站</p>
     </div>
+    <button id="dzs" onclick="dianzan()">0</button>
+    <script>
+      function dianzan() {
+        let dianzanshu = window.document.getElementById("dzs");
+        let zongshu = parseInt(dianzanshu.innerText);
+        let xinzongshu = zongshu + 1;
+        dianzanshu.innerText = xinzongshu;
+        return;
+      }
+    </script>
   </body>
 </html>
